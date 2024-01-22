@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-// StructFilter returns a slice of any struct s after being filtered with a map
+// StructFilter returns a slice of any struct s after being filtered with the filters map
 func StructFilter(filters map[string]any, s []any) []any {
 	filtered := []any{}
 
